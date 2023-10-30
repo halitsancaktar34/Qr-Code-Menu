@@ -42,9 +42,9 @@ function renderPage(product) {
 
       <h3 class="my-2">
         Ürünün Fiyatı:
-        <span class="text-success">${(product.price * 30).toFixed(
+        <span class="text-success">${(product.price).toFixed(
             2
-        )}₺</span>
+        )}$</span>
       </h3>
 
       <p class="lead fs-3">

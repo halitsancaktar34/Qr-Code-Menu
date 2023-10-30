@@ -14,7 +14,7 @@ export function renderMenuItems(menuItems, menuList) {
     <div>
         <div class="d-flex justify-content-between">
             <h5>${item.title}</h5>
-            <p class="text-success fw-bold">${item.price}₺</p>
+            <p class="text-success fw-bold">${item.price}$</p>
         </div>
         <p class="lead">${item.desc.slice(0, 60) + "..."}</p>
     </div>
